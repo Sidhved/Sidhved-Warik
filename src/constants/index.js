@@ -22,52 +22,19 @@ export const navLinks = [
   {
     id: 5,
     name: "Resume",
-    href: "https://drive.google.com/file/d/1aHll9TP_y0wDLZ9mOcdcfqCOiDyN-xKP/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1PeR-NMsXkSvGqY-sl9tFUuipkXLi6h1M/view?usp=drive_link",
   },
 ];
 
-// export const clientReviews = [
-//   {
-//     id: 1,
-//     name: "Emily Johnson",
-//     position: "Marketing Director at GreenLeaf",
-//     img: "assets/review1.png",
-//     review:
-//       "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-//   },
-//   {
-//     id: 2,
-//     name: "Mark Rogers",
-//     position: "Founder of TechGear Shop",
-//     img: "assets/review2.png",
-//     review:
-//       "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
-//   },
-//   {
-//     id: 3,
-//     name: "John Dohsas",
-//     position: "Project Manager at UrbanTech ",
-//     img: "assets/review3.png",
-//     review:
-//       "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-//   },
-//   {
-//     id: 4,
-//     name: "Ether Smith",
-//     position: "CEO of BrightStar Enterprises",
-//     img: "assets/review4.png",
-//     review:
-//       "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
-//   },
-// ];
+
 
 export const myProjects = [
   {
-    title: "AIBnB - AI based itinerary generator",
-    desc: "AIBnB is a revolutionary Software-as-a-Service platform that generates personalized travel itineraries with user preferences. With the power of Google Gemini Vision Pro, it allows creators to modify and customize itineraries seamlessly with excellent recommendations.",
+    title: "Surge Price Simulator",
+    desc: "A machine learning-powered surge pricing simulator built with Python, Streamlit, and Scikit-learn that generates dynamic pricing algorithms using Gradient Boosting Regression.",
     subdesc:
-      "Built as a unique Software-as-a-Service app with React.js, Tailwind CSS, Django, Supabase and Sqlite3, AIBnB is designed for optimal performance and scalability.",
-    href: "https://ai-bnb.netlify.app/",
+      "Built as a unique and interactive tool for users to simulate the surge pricing algorithm and gain a deeper understanding of the taxi market dynamics.",
+    href: "https://surge-pricing-simulator.streamlit.app/",
     texture: "/textures/project/project1.mp4",
     logo: "/assets/project-logo1.png",
     logoStyle: {
@@ -79,31 +46,31 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "Python",
+        path: "/assets/python.svg",
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        name: "Streamlit",
+        path: "assets/streamlit.png",
       },
       {
         id: 3,
-        name: "Django",
-        path: "/assets/django-logo.png",
+        name: "Scikit-learn",
+        path: "/assets/Scikit-learn.svg",
       },
       {
         id: 4,
-        name: "Supabase",
-        path: "/assets/supabase-icon.svg",
+        name: "Pandas",
+        path: "/assets/pandas.svg",
       },
     ],
   },
   {
-    title: "Gringotts - The Wizarding Bank",
-    desc: "Gringotts is a Harry Potter themed online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
+    title: "Supply Chain Management Dashboard",
+    desc: "An interactive Supply Chain Dashboard.",
     subdesc:
-      "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
+      "Built using Vue.js to visualize real-time inventory, optimize demand forecasting, and enhance logistical efficiency.",
     href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
     texture: "/textures/project/project4.mp4",
     logo: "/assets/project-logo4.svg",
@@ -116,23 +83,18 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "Vue.js",
+        path: "/assets/Vue.svg",
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        name: "NodeJS",
+        path: "assets/Node.js.png",
       },
       {
         id: 3,
         name: "TypeScript",
         path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
       },
     ],
   },
